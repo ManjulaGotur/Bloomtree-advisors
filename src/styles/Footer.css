@@ -1,0 +1,62 @@
+
+.Quickbloomtree {
+    margin-top: 100px;
+    background-color: aliceblue;
+   
+    height: 250px;
+
+  }
+  
+  
+  .bloomtre {
+    
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .advisors {
+ 
+    margin-left: 1rem;
+  }
+  
+ 
+  
+ 
+  .contact-us {
+    
+    margin-right: 2rem;
+    
+  }
+  
+ 
+  @media (max-width: 768px) {
+    
+    .bloomtre {
+      flex-direction: column; 
+      align-items: center; 
+      margin-left: 0; 
+    }
+  
+    .quiklinks {
+      margin-right: 2rem; 
+    }
+  
+    .contact-us {
+      margin-left: 3rem; 
+       
+    }
+  }
+  
+  
+.footer-section {
+    background-color:rgb(31, 147, 151);
+    color: rgba(255, 255, 255, 0.822);
+    height: 70px; 
+    width: 100%; 
+  
+    
+    @media (max-width: 768px) {
+      height: 100px; 
+    }
+  }
+  

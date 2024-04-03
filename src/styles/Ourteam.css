@@ -1,0 +1,42 @@
+.ourteam{
+    background-color:rgba(13, 90, 233, 0.795);
+}
+
+.teammates { 
+    margin-top: 100px;
+} 
+
+.teammember {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.teammember img {
+    height: 420px; 
+    max-width: 420px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.teammember h4 {
+    margin-top: 20px;
+}
+.teammates button{
+    margin-top: 30px;
+border-radius: 10px ;
+padding: 10px 50px  10px 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .teammember img {
+        margin-left: 10px; 
+        margin-right: 10px; 
+        margin-top: 20px; 
+    }
+}
+
