@@ -54,7 +54,7 @@ const Ourteam = () => {
           </div>
 </div>
 <div className="text-center">
-  <button className="btn btn-success">View All -&gt;</button>
+  <button className="but1 btn btn-success">View All -&gt;</button>
 </div>        {/* <button className="btn  btn-success ">View All -&gt;</button> */}
       </div>
     </div>

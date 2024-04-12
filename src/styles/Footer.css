@@ -1,32 +1,41 @@
 
 .Quickbloomtree {
     margin-top: 100px;
-    background-color: aliceblue;
-   
-    height: 250px;
+    background-color: rgb(202, 225, 248);
+   width: 100%;
+    height: auto;
 
   }
   
-  
+  #three{
+    color: blue;
+    text-decoration: underline;
+    font-size: 22px;
+  }
+  #three::after:hover{
+    text-decoration: underline;
+  }
+
+  .quiklinks ul li{
+    list-style: none;
+  }
+
+  .ourservice ul li{
+    list-style: none;
+  }
+
   .bloomtre {
     
     display: flex;
     flex-direction: row;
   }
+  
  
   .advisors {
  
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
-  
- 
-  
- 
-  .contact-us {
-    
-    margin-right: 2rem;
-    
-  }
+
   
  
   @media (max-width: 768px) {

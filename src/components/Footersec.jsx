@@ -3,47 +3,47 @@ import '../styles/Footer.css'
 
 const Footersec = () => {
   return (
-   <div className="Footersection">
+   <div className="Footersection mt-4">
      <div className="Quickbloomtree">
-      <div className="bloomtre mt-4 d-flex">
+      <div className="bloomtre mt-5 d-flex">
        
        
         <div className="advisors">
-        <div className="logosec ms-5 ">
+        <div className="logosec ms-4 ">
             <img className='ms-lg-2' src="https://bloomtreeadvisors.com/assets/uploads/headerlogo/newlogo.png" alt="" style={{ width: "200px", height: "55px" }} />
          
           <p>
             Bloomtree Advisors was established with a <br />vision  to support the
             functionalities of an <br /> organization by  complimenting the work  of <br /> a 
             CEO/the  founders by  acting as their  <br />shadow in the  finance domain of 
-            the company. We app… read more
+            the company. We app… <span id="three" >read more</span>
           </p>
           </div>
         </div>
 
-        <div className="quiklinks ms-5">
+        <div className="quiklinks ms-3">
           <h2>
-            <u> Quick links</u>
+            <u > Quick links</u>
           </h2>
-          <li>Home</li>
+         <ul> <li>Home</li>
           <li>About Us</li>
           <li> Our Team</li>
           <li> Blogs</li>
           <li> Services</li>
-          <li>Contact us</li>
+          <li>Contact us</li></ul>
         </div>
 
-        <div className="ourservice ms-5">
+        <div className="ourservice ms-3">
           <h2>
         
             <u>Our Services</u>
           </h2>
-          <li>Outsourced Accounting</li>
+          <ul><li >Outsourced Accounting</li>
           <li>Consulting and Advisory</li>
           <li>Virtual CFO and Allied Services</li>
           <li>Taxation and Compliances</li>
           <li>Corporate Finance and Audit</li>
-          <li>Investor Relation</li>
+          <li>Investor Relation</li></ul>
         </div>
 
         <div className="contact-us ms-5">

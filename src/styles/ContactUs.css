@@ -1,10 +1,43 @@
-.contactus{
-  background-color:rgba(13, 90, 233, 0.795);
+.details form {
+  display: flex;
+  align-items: center;
+  background-color: rgba(202, 204, 206);
+  margin: 30px auto;
+  width: 330px;
+  height: 320px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px black;
 }
 
-.detailssec{
-  background-color: rgba(220, 20, 60, 0.616);
-padding: 20px;
+.details .form_inputs {
+  text-align: center;
+}
 
+.form_inputs input {
+  border: none;
   
+  width: 260px;
+  margin: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.form_inputs button {
+  border: none;
+  background-color: midnightblue;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.contactus {
+  background-color: rgba(13, 90, 233, 0.795);
+}
+
+.detailssec {
+  /* background-color: rgba(220, 20, 60, 0.616); */
+  background-color: rgba(56, 56, 219, 0.938);
+  padding: 15px;
+  border-radius: 25px;
+  box-shadow: 10px 9px 10px black;
 }
