@@ -7,7 +7,21 @@
 }
 .category h2{
     background-color: cornflowerblue;
+
 }
+
 .category h3{
    background-color:blanchedalmond; 
+}
+
+.categoriess{
+    margin-right: 30px;
+}
+.categoriess h2{
+    color: white;
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 300px;
+ 
+    
 }

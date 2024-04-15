@@ -6,6 +6,11 @@
     margin-top: 100px;
 } 
 
+.heading{
+   color: black;
+    width:auto;
+}
+
 .teammember {
     display: flex;
     flex-wrap: wrap; 
@@ -14,7 +19,7 @@
 }
 
 .teammember img {
-    height: 350px; 
+    height: 380px; 
     max-width: 350px;
     margin-left: 20px; 
     margin-right: 20px; 
@@ -37,8 +42,8 @@ padding: 10px 50px  10px 50px;
 }
 
 .but1:hover{
-    background-color:chartreuse;
-    border-radius: 5px;
+    background-color:rgb(0, 38, 255);
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {

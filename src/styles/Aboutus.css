@@ -5,11 +5,12 @@
 }
 
 .image1 img{
-    height: 400px; 
-    width:400px;
+    height: 450px; 
+    width:450px;
+    border-radius: 8px solid black;
 }
 
 
-.section2{
+/* .section2{
     background-color:rgba(127, 255, 212, 0.336);
-}
+} */

@@ -16,14 +16,15 @@ const Ourteam = () => {
         </div>
       </div>
 
-      <div className="heading mt-5 fs-3">
-        <h2 className="fs-4 ms-4 me-5" >
-          Initiated by a diversified group of individuals with a common interest
-          of offering the best of services in the field of finance and fields
-          related to finance and members of various institutes and professional
-          bodies across the world
-        </h2>
-      </div>
+      <div className="heading mt-5 fs-3" style={{ fontFamily: 'Arial, sans-serif', fontSize: '1.25rem' }}>
+  <h2 className="fs-4 ms-4 me-5">
+    Initiated by a diversified group of individuals with a common interest
+    of offering the best of services in the field of finance and fields
+    related to finance and members of various institutes and professional
+    bodies across the world
+  </h2>
+</div>
+
 
       <div className="teammates mt-2 ">
       
