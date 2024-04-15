@@ -73,7 +73,7 @@ const ContactUs = () => {
   <div className="map-section">
     <h1 className='text-center mt-5 '>VENUE-LOCATION</h1>
   <div className="gmap-iframe">
-  <iframe width="100%" height="600"
+  <iframe id='gmap_canvas' width="100%" height="600" title='Bloomtree Business Advisors Private Limited'
    frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=42,%2012th%20Main%20Rd,%204th%20T%20Block%20East,%20KV%20Layout,%20Jayanagar,%20Bengaluru,%20Karnataka%20560011+(Bloomtree%20Business%20Advisors%20Private%20Limited)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
 
   </div>
