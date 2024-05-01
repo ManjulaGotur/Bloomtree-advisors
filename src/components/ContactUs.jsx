@@ -8,7 +8,7 @@ const ContactUs = () => {
   
   return (
     <div className='contactussec'>
-      <div className="contactus d-flex flex-column flex-md-row p-4 text-light">
+      <div className="contactussec2 d-flex flex-column flex-md-row p-4 text-light">
         <h1 className="ms-5 fs-1 mb-4 mb-md-0 o">Contact Us</h1>
         <div className="d-flex align-items-center ms-auto">
           <h3 className="me-5 mb-0"><u id="two" className="one">Home</u></h3>
@@ -16,9 +16,9 @@ const ContactUs = () => {
         </div>
       </div>
       
-      <div className="contactdetails ms-5 mt-3">
+      <div className="contactdetailssec ms-5 mt-5">
         <div className="details mb-5">
-        <h2 className='text-center text-light' >Details</h2>
+        <h2 className='text-center mt-4 text-light' >Details</h2>
           <form action="">
         
             <div className="form_inputs">
@@ -31,7 +31,7 @@ const ContactUs = () => {
               <div className="email">
                 <input type="email" placeholder="Enter your email" value={email} onChange={(e) => setEmail(e.target.value)} />
               </div>
-              <button className="btn btn-warning mt-2">Send Message</button>
+              <button className="btn btn-warning  mt-2">Send Message</button>
             </div>
           </form>
         </div>

@@ -2,16 +2,22 @@
     background-color:rgba(13, 90, 233, 0.795);
 }
 .gst img{
-    height: 500px;
-    width: 950px;
+    height: 550px;
+    width: 930px;
+    border-radius: 8px  ;
 }
 .category h2{
-    background-color: cornflowerblue;
+    background-color: blue;
+    font-family: poppins;
+    
 
 }
 
 .category h3{
-   background-color:blanchedalmond; 
+   background-color:crimson;
+   color: white; 
+   font-family: poppins;
+
 }
 
 .categoriess{
@@ -20,8 +26,8 @@
 .categoriess h2{
     color: white;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color:rgba(26, 90, 83, 0.986);
     height: 300px;
- 
+ font-family:poppinds;
     
 }

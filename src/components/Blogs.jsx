@@ -36,11 +36,11 @@ const Blogs = () => {
           </form>
 
           <div className="category mt-4">
-            <h2 className="p-2 text-light">Categories</h2>
-            <h3 className="p-3">BloomTree Articles(3)</h3>
+            <h2 className="p-2 text-light ">Categories</h2>
+            <h3 className="p-5">BloomTree Articles(3)</h3>
 
-            <h2 className="p-2 text-light">Recent Photos</h2>
-            <h3 className="p-3">Indirect Taxes and GST</h3>
+            <h2 className="p-2 text-light mt-4">Recent Photos</h2>
+            <h3 className="p-5">Indirect Taxes and GST</h3>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ const Blogs = () => {
         />
 
         <div className="categoriess mt-4 d-flex justify-content-center align-items-center">
-          <h2 className="p-3 ms-2 rounded fs-4 text-center">
+          <h2 className="p-3 ms-4 rounded fs-4 text-center">
             Got any Questions? Call us Today!
             <br />
             +91-8867474079 <br />

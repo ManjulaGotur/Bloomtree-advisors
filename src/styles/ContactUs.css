@@ -1,3 +1,18 @@
+.contactdetailssec{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+}
+.details{
+  background-color:rgba(26, 90, 83, 0.986);
+  width: 400px;
+  height: 470px;
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+  border-radius:18px ;
+  
+}
 .details form {
   display: flex;
   align-items: center;
@@ -16,7 +31,8 @@
 .form_inputs input {
   border: none;
   
-  width: 260px;
+  width: 280px;
+  height: 40px;
   margin: 10px;
   border-radius: 10px;
   outline: none;
@@ -26,11 +42,13 @@
   border: none;
   background-color: midnightblue;
   color: white;
+  width: 280px;
+  height: 40px;
   padding: 8px 20px;
   border-radius: 8px;
 }
 
-.contactus {
+.contactussec2 {
   background-color: rgba(13, 90, 233, 0.795);
 }
 
