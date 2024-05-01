@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Ourteam.css";
+import { Link } from "react-router-dom";
 
 const Ourteam = () => {
   return (
@@ -9,7 +10,7 @@ const Ourteam = () => {
         <div className="d-flex align-items-center ms-auto">
           <h3 className="me-5 mb-0">
             <u id="two" className="one">
-              Home
+            <Link to='/' className="nav-link active" >Home</Link>
             </u>
           </h3>
           <h3 className="me-5 ms-2 mb-0">Our Team</h3>

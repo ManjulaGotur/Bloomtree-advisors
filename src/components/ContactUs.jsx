@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/ContactUs.css';
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   const [name, setName] = useState('');
@@ -11,7 +12,9 @@ const ContactUs = () => {
       <div className="contactussec2 d-flex flex-column flex-md-row p-4 text-light">
         <h1 className="ms-5 fs-1 mb-4 mb-md-0 o">Contact Us</h1>
         <div className="d-flex align-items-center ms-auto">
-          <h3 className="me-5 mb-0"><u id="two" className="one">Home</u></h3>
+          <h3 className="me-5 mb-0"><u id="two" className="one">
+          <Link to='/' className="nav-link active" >Home</Link>
+            </u></h3>
           <h3 className="me-5 ms-2 mb-0">Contactus</h3>
         </div>
       </div>

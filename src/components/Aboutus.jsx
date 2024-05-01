@@ -1,6 +1,8 @@
 
 import React, { useState, useEffect } from "react";
 import "../styles/Aboutus.css";
+import { Link } from "react-router-dom";
+
 
 const Aboutus = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -28,8 +30,7 @@ const Aboutus = () => {
         <div className="d-flex align-items-center ms-auto">
           <h3 className="me-5 mb-0">
             <u id="two" className="one">
-              Home
-            </u>
+            <Link to='/' className="nav-link active" >Home</Link>           </u>
           </h3>
           <h3 className="me-5 ms-2 mb-0">About Us</h3>
         </div>
